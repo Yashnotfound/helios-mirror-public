@@ -217,14 +217,18 @@ Three buttons are already added including Drive Link, Index Link, and View Link,
 - `BUTTON_FIVE_NAME`:
 - `BUTTON_FIVE_URL`:
 - `BUTTON_SIX_NAME`:
-- `BUTTON_SIX_URL`:
+- `BUTTON_SIX_URL`
 
-#Setup Force Subscriber Bot
-- Fill required configs in [forcesubConfig.py](https://github.com/arshsisodiya/helios-mirror-private/blob/helios-mirror/forcesubConfig.py)
+
+###Setup Force Subscriber Bot
+
+- Fill required configs in [forcesubConfig.py](https://github.com/arshsisodiya/helios-mirror-public/blob/fsub/forcesubConfig.py)
 - after deploying the bot
 - Add the bot in group with admin permissions
 - Add the bot in Channel as Admin
+- 
 ##Force Subscriber bot Command
+
 ```
 forcesubscribe {channel username or channel id} - To turn on force subscribe and setup the channel
 forcesubscribe - To get current settings
@@ -233,9 +237,9 @@ forcesubscribe clear - To unmute all members who muted by Force Subscriber bot
 
 Note - Fsub is alias of forcesubscriber
 
+```
 ## Bot commands to be set in [@BotFather](https://t.me/BotFather)
 
-```
 mirror - Start mirroring
 zipmirror - Start mirroring and upload as .zip
 unzipmirror - Extract files
